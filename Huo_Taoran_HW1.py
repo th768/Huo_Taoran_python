@@ -5,6 +5,11 @@ Spyder Editor
 Group F Homework1
 @author: Taoran Huo
 """
+#Overall Comment: Generally speaking, I think it is a very good start of Python! There are still some detailed mistakes you need
+#to pay attention, but you still have time. Here is my suggestion: Always take the logic in the first place, the function you defined
+#is really working, but the logic seems not that efficient. You need to devote some time in this aspect. But you commended very
+#well, it is a good habit for programming. My comment has started with Comment:, you may have a look. If you think there is
+#any misunderstanding, please feel free to email me.
 
 def max1(a, b):
     '''
@@ -35,7 +40,8 @@ arguments and returns the largest of them.
     else:  #compare t with c
         return c #output the larger one c
 max_of_three(7, 6, 8)   
-     
+#Comment: The logic do work, but I suggest you to simplify it.
+
 def length(a):
     '''
 3. Define a function that computes the length of a given list or string.
@@ -166,7 +172,7 @@ exercise you
         a+=c #a+=means that a remains itselt and will be added c
     return a #output the result
 generate_n_chars(6,'e')
-
+#Comment: Good use of '+='
 def histogram(list):
     '''
     12. Define a procedure histogram()that takes a list of integers and prints
@@ -211,7 +217,8 @@ returns the length of the longest one.
     '''
     return max(list(map(len,list1)))
 print(find_longest_word(['i','enjoy','swimming'])) #list the length of each words in list and use max function to find the maximum number
-  
+#Comment: I tried this function and it seems doesn't work. Here is one way I think is efficient, you use the length() function to return
+#the length of the input variable first. Then use index to choose the longest word as the output.
 def filter_long_words(n,list1):
     '''
     16. Write a function filter_long_words()that takes a list of words and an
@@ -224,6 +231,6 @@ integer n and returns the list of words that are longer than n.
             myList += [a] #if the element is larger than a, add it in the new list
     return myList #return the result
 print(filter_long_words(7,['love','singers','beautiful','python']))
-    
+#Comment: Good practise !
 
     
