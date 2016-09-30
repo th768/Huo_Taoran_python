@@ -5,6 +5,9 @@ Spyder Editor
 Group F Homework1
 @author: Taoran Huo
 """
+#Your grade is influenced by your format, please refer to the format that Professor G has shown during the lecture. The content
+#we expect is the question you are trying to solve, the input variables you use and the output you expect. Once you corrected
+#them, I am more than happy to give your mark back!
 #Overall Comment: Generally speaking, I think it is a very good start of Python! There are still some detailed mistakes you need
 #to pay attention, but you still have time. Here is my suggestion: Always take the logic in the first place, the function you defined
 #is really working, but the logic seems not that efficient. You need to devote some time in this aspect. But you commended very
