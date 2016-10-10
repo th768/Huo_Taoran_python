@@ -6,7 +6,7 @@ Group C Homework3
 
 @author: Taoran Huo
 """
-
+#Overall comment: Good Exercise and comments.
 '''
 1. Search for the IRIS dataset on the internet. You should quickly find the UCI Machine Learning
 repository. Instead of downloading the files, figure out how to directly load the files from the
