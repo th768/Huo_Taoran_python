@@ -5,7 +5,8 @@ Created on Mon Sep 19 14:27:20 2016
 @author: Taoran Huo
 Group C Homework 2
 """
-
+#Overall Comment: Very good exercise ! The logic goes well and efficient, your comments shows your own understanding of the
+#corresponding code. Happy to see your growth !
 def is_palindrome(file):
     '''
     1. Write a version of a palindrome recogniser that accepts a file
